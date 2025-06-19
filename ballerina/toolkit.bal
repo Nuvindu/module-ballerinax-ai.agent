@@ -205,6 +205,7 @@ public isolated class HttpServiceToolKit {
                 name: httpTool.name,
                 description: httpTool.description,
                 parameters: {
+                    'type: OBJECT,
                     properties: {
                         httpInput: parameters
                     },
